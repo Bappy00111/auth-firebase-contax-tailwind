@@ -3,7 +3,7 @@ import { AuthContax } from './Providers/AuthProviders';
 
 const Home = () => {
     const {user} = useContext(AuthContax)
-    console.log(user)
+    // console.log(user)
     return (
         <div>
             <h1>This is home page {user && <span>{user.display}</span>}</h1>

@@ -18,6 +18,8 @@ const Login = () => {
         .then(result =>{
             const loginUser = result.user;
             console.log(loginUser)
+            from.reset( '')
+            
         })
         .catch(error => {
             console.log(error)
